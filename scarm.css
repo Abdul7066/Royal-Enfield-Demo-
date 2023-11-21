@@ -1,0 +1,31 @@
+.img10{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/scram-411/banners/desktop/royal-enfield-ready-set-scram.jpg) !important;
+    background-size: cover !important;height: 400px;
+}
+.img11{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/scram-411/banners/desktop/royal-enfield-king-of-concrete.jpg) !important;
+    background-size: cover !important;height: 400px;
+}
+.allblack1{
+    display: none;
+}
+.allblack{
+    color: black !important;
+}
+.pricedata{
+    background-color: white !important;
+}
+.buttonprice0 a{
+    color: black !important;
+}
+.buttonprice0{
+    
+    background-color: red !important;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.buttonprice0:hover{
+    background-color: white !important;
+}

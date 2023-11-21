@@ -1,0 +1,142 @@
+.main{
+    
+   background-color: white !important;
+}
+.carddiv1{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.carddiv2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.carddiv3{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    border: none;
+    width: 200px;
+    height: 200px;
+}
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card p{
+    font-family: 'Times New Roman', Times, serif;
+    color: black !important;
+}
+.cardp{
+    text-align: center;
+}
+.heading5 h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black !important;
+    border-bottom: 10px solid red;
+}
+
+@media screen and (min-width:0px) and (max-width:600px){
+    .heading1 h4{
+        font-size: x-large;
+        padding: 10px;
+        text-align: center;
+    }
+    .carddiv1{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .carddiv1 a{
+        padding-bottom: 150px;
+    }
+    .carddiv1 img{
+        
+        width:300px ;height: 300px;
+    }
+    .carddiv2{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .carddiv2 a{
+        padding-bottom: 150px;
+    }
+    .carddiv2 img{
+        
+        width:300px ;height: 300px;
+    }
+    .carddiv3{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    .carddiv3 a{
+        padding-bottom: 150px;
+    }
+    .carddiv3 img{
+        
+        width:300px ;height: 300px;
+    }
+
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    
+    .heading1 h4{
+        font-size: x-large;
+        padding: 10px;
+        margin-left: 300px !important;
+        
+    }
+    .carddiv1{
+        margin-left: 170px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+    .carddiv1 a{
+        padding-bottom: 200px;
+    }
+    .carddiv1 img{
+        width: 100%;
+        /* width:500px ;height: 500px; */
+    }
+    .carddiv2{
+        margin-left: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+    .carddiv2 a{
+        padding-bottom: 200px;
+    }
+    .carddiv2 img{
+        width: 100%;
+        /* width:500px ;height: 500px; */
+    }
+    .carddiv3{
+        margin-left: 170px;
+        display: flex;
+        flex-direction: column;
+    }
+    .carddiv3 a{
+        padding-bottom: 200px;
+    }
+    .carddiv3 img{
+        width: 100%;
+        /* width:500px ;height: 500px; */
+    }
+    .cardp{
+        font-size: xx-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+    }
+    .card{
+        width:500px ;height: 500px;
+        
+    }
+}

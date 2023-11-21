@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white !important;
+    font-family: fantasy;
+}
+body{
+   
+    
+    
+}
+main{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/support/road-side-assistance/roadside-assistance-landing.jpg);
+    background-size: cover;
+    padding-bottom:125px;padding-top: 30px;
+    /* background-blend-mode: color-burn; */
+}
+.background{
+    
+}
+a{
+    text-decoration: none; color: rgb(253, 250, 250)
+} 
+
+.mainnav{
+    background-color: rgb(48, 46, 46) !important; color: white !important; 
+}
+.img1 img{
+    margin-left: 20px;
+
+}
+.icon{
+    
+}
+.icon li{
+    margin-left: 25px;
+}
+.data{
+    margin-left: 200px;
+    font-size: small;
+}
+.nav-item a:hover{
+    color: red !important;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.login {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.login a:hover{
+    color: red !important;
+}
+@media screen and (max-width:600px){
+    .data{
+        position: relative !important;
+        right: 170px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .data{
+        display: block;
+        position: relative !important;
+        right: 170px;
+        margin-top: 20px;
+    }
+    .login{
+        display: block;
+        position: relative !important;
+        right: 50px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+}
+
+.login1{
+    font-size: medium;
+    text-align: center;
+    margin-top: 20px;
+}
+/* .inputs{
+    display: flex;
+    justify-content: space-around;
+} */
+.inputs input{
+
+    border: 2px solid rgb(246, 243, 243);
+    width: 300px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+.inputs input::placeholder{
+    color: white; 
+}
+.inputs{
+    display: flex;
+    justify-content: center;
+}
+
+.button2{
+    width: 300px;
+    height: 40px;
+    background-color: black;
+}
+.button2:hover{
+    background-color: red;
+}
+.forget{
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-right: 190px;
+    display: flex;
+    justify-content: center;
+}
+.forget h6{
+    color: black;
+    margin-left: 10px;
+    font-size: larger;
+}
+.logindata{
+    margin-top: 30px;
+}
+.input1{
+    margin-right: 10px;
+}
+.input1::placeholder{
+    text-align: center;
+}
+.input2::placeholder{
+    text-align: center;
+}
+.main3{
+    text-align: center;
+    margin-top: 50px;
+}
+.button3{
+    margin-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.457);
+    border: 1px solid white;
+}
+.button3:hover{
+    background-color: black;
+}
+.buttons{
+    text-align: center;
+    margin-top: 30px;
+}
+.button4{
+    width: 160px;
+    height:40px;
+    background-color: blue;
+}
+.button4:hover{
+    background-color: black;
+}
+.button5{
+    margin-left: 10px;
+    width: 160px;
+    height:40px;
+    background-color: red;
+}
+.button5:hover{
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    /* height: 300px; */
+}
+/* Media Query */
+@media screen and (max-width:600px){
+    
+    .login1{
+        font-size: smaller;
+    }
+    .inputs{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        
+    }
+    .inputs input{
+        width: 300px;
+        height: 40px;
+    }
+    .input1{
+        margin-bottom: 10px;
+    }
+    .forget{
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+    .forget button{
+        width: 300px;
+        height: 40px;
+    }
+    .forget h6{
+        font-size: medium;
+        margin-top: 10px;
+    }
+}
+
+
+
+@media screen and (min-width:601) and (max-width:900px){
+    .login1{
+        font-size: smaller;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        
+    }
+    .inputs input{
+        width: 250px;
+        height: 35px;
+    }
+    .input1{
+        margin-bottom: 10px;
+    }
+    .forget{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .forget button{
+        width: 250px;
+        height: 35px;
+    }
+    .forget h6{
+        font-size: medium;
+        margin-top: 10px;
+    }
+}

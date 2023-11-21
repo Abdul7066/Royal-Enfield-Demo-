@@ -1,0 +1,363 @@
+header{
+    background-color: rgb(67, 67, 67);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heading1{
+    display: flex;
+
+}
+.heading1 h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    margin-left: 10px;
+}
+.heading1 p{
+    margin-left: 60px;
+    margin-top: 5px;
+
+}
+.heading1 p a:hover{
+    color: red !important;
+}
+ .buttonb{
+    background-color: red;
+    margin-top: 5px;
+    margin-right: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.buttonb1 a{
+    color: black !important;
+}
+.buttonb1{
+    background-color: white !important;
+    margin-top: 5px;
+    margin-right: 4px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.buttonb1:hover{
+    background-color: black !important;
+}
+.buttonb1 a:hover{
+    color: white !important;
+
+}
+.heading2 button:hover{
+    background-color: black;
+}
+/* main Data */
+main{
+    background-color: rgb(67, 67, 67);
+}
+
+.main1{
+    display: flex;
+    margin-left: 10px;
+    
+}
+.main1 svg{
+    margin-right: 10px;
+    margin-top: 5px;
+
+}
+.main1 p{
+    margin-right: 10px;
+}
+.img2{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/continental-gt/new/banner/desktop/cafe-racer.jpg);background-size: cover;height: 600px;
+   
+}
+
+.img1data{
+    position: absolute;  
+    left: 800px;
+    top: 750px; 
+}
+.img1datah{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.img1datap{
+    position: absolute;
+    font-size: small;
+    margin-left: 800px;
+    top:800px;
+    /* margin-top: 100px; */
+}
+.img3{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/continental-gt/new/banner/desktop/all-black.jpg);background-size: cover;height: 600px;
+}
+.img1data1{
+    position: absolute;
+    left: 800px;
+    top: 1400px;
+}
+.img1data1p{
+    position: absolute;
+    margin-left: 800px;
+    top: 1450px;
+}
+.img4{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/continental-gt/new/banner/desktop/648cc-of-fun.jpg);background-size: cover;height: 600px;
+}
+.img1data2h{
+    position: absolute;
+    top: 2000px;
+    left: 800px;
+}
+
+.img5{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/continental-gt/new/banner/desktop/ton-of-fun.jpg);background-size: cover;height: 600px;
+}
+.img1data1p{
+    font-size: small;
+    margin-left: 800px;
+    
+}
+.img1data3h{
+    position: absolute;
+    top: 2600px;
+    left: 800px;
+}
+.img1data3p{
+    position: absolute;
+}
+.h41{
+    margin-top: 50px;
+}
+.h41 p{
+    font-size: smaller;
+}
+.pricedata{
+    display: flex;
+}
+.pricediv{
+    color: black !important;
+}
+.price{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+    color: black !important;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.price img{
+    mix-blend-mode: multiply;
+
+}
+
+.duxe{
+    color: black !important;
+}
+.ex{
+    color: rgb(53, 53, 53) !important;
+}
+.price329{
+    color: black !important;
+}
+.buttonprice{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.buttonprice:hover{
+    background-color:red;
+    color: white !important;
+   
+}
+
+.buttonprice a{
+    color: black !important;
+}
+.bikeprice{
+
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.bikeprice h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.bikeimg1{
+    margin-left: 50px;
+}
+/* footer start */
+footer{
+    filter: invert(0) !important;
+}
+/* media gallery */
+.gallery{
+    text-align: center;
+    padding: 5px;
+}
+.galleryimgs{
+    display: flex;
+}
+.galleryimgs img:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+
+}
+@media screen and (max-width:600px){
+    .heading1{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading1 p{
+        margin-right: 200px;
+        display: flex;
+        
+    }
+    .buttonb{
+        display: flex;
+        align-items: stretch;
+    }
+    .imggt img{
+        width: 100%;
+        /* width: 410px;
+        height: 300px; */
+        background-size: cover;
+        margin-right: 300px;
+    
+    }
+    
+    .img1data{
+        position: relative;
+        left: 20px;top: 15px;
+    }
+    .img1data1{
+    position: relative;
+        left: 20px;top: 15px;
+    }
+    .img1data2h{
+        position: relative;
+        left: 20px;top: 10px;
+    }
+    .img1data3h{
+        position: relative;
+        left: 20px;top: 350px;
+    }
+    .pricedata{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bikeimg1{
+        width: 350px;
+        left: 10px;
+        
+    }
+    .bikeprice{
+        position: relative;
+        left: 0px;
+        
+    }
+    .buttonprice{
+        margin-bottom: 30px;
+    }
+    .active img{
+        background-size: cover;
+        height: 300px;display: block;
+        
+    }
+  
+    
+   .galleryimgs{
+    display: flex;
+    flex-direction: column;
+   }
+   .galleryimgs img{
+    width: 100%;
+   }
+}
+
+/* Tablet Mode Media quarry */
+@media screen and (min-width:601px) and (max-width:900px){
+    .heading1{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    .heading{
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .heading1 p{
+        margin-right: 200px;
+        display: flex;
+        
+    }
+   
+    .imggt img{
+        width: 100%;
+        height: 500px;
+        background-size: cover;
+        margin-right: 300px;
+    
+    }
+    
+    .img1data{
+        text-align: center;
+        position: relative;
+        left: 50px;top: 15px;
+
+    }
+    
+    .img1data1{
+        text-align: center;
+    position: relative;
+        left: 60px;top: 15px;
+    }
+    .img1data2h{
+        text-align: center;
+        position: relative;
+        left: 50px;top: 15px;
+    }
+    .img1data3h{
+        text-align: center;
+        position: relative;
+        left: 50px;top: 35px;
+    }
+    .pricedata{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .bikeimg1{
+        width: 700px;
+        left: 10px;
+        
+    }
+    .bikeprice{
+        position: relative;
+        left: 0px;
+        
+    }
+    .buttonprice{
+        margin-bottom: 30px;
+    }
+    .active img{
+        background-size: contain;
+        height: 500px;display: block;
+        
+    }
+    .heading1 h4:hover{
+        color: red !important;
+
+    }
+  
+    
+   .galleryimgs{
+    display: flex;
+    flex-direction: column;
+   }
+   .galleryimgs img{
+    width: 100%;
+   }
+}

@@ -1,0 +1,65 @@
+.himalaya{
+    
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.himalaya1{
+    display: flex;
+    margin-left: 10px;
+}
+.headingdiv{
+    margin-top: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+.heading4{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.gallery1{
+    text-align: center;
+    padding: 5px;
+}
+.galleryimgs1{
+    display: flex;
+}
+
+.galleryimgs1 img:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+
+}
+.gallery1{
+    background-color: black !important;
+}
+.gallery1 h2:hover{
+    color: red !important;
+}
+/* Media Quarry */
+@media screen and (max-width:600px){
+    .himalayaimg{
+        height: 30%;
+    }
+    .galleryimgs1{
+        display: flex;
+        flex-direction: column;
+    }
+    .galleryimgs1 img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px) and (max-width:900px){
+    
+    .himalayaimg{
+        height: 30%;
+    }
+    .galleryimgs1{
+        display: flex;
+        flex-direction: column;
+       }
+       .galleryimgs1 img{
+        width: 100%;
+       }
+}

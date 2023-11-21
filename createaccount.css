@@ -1,0 +1,87 @@
+main{
+   background-image: url(https://images.unsplash.com/photo-1530248809527-ee069dc8373a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1933&q=80);background-repeat: no-repeat;background-size: cover;background-attachment: fixed;
+}
+.inputs input{
+    width: 350px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.322);
+}
+.maindata{
+    text-align: center;
+}
+.para1{
+
+}
+.div2{
+    text-align: center;
+}
+.listdiv{
+    margin-left: 300px;
+}
+.selectoption{
+    margin-left: 40px;
+}
+.para{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.buttonnew input{
+    width: 350px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.228);
+    margin-bottom: 200px;
+}
+.buttonnew{
+    margin-left: 40px;
+}
+.buttonnew:hover{
+background-color: ;
+}
+select{
+    width: 350px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.228);
+}
+
+#select1 option{
+    background-color: black;
+}
+@media screen and (max-width:600px){
+    .listdiv{
+       margin-left: 15px;
+    }
+    .maindiv1{
+        padding-top: 20px;
+    }
+    .inputs input{
+        width: 300px;
+        height: 30px;
+        background-color: rgba(255, 255, 255, 0.322);
+    }
+    .listul{
+        margin-bottom: 20px;
+    }
+    .selectoption{
+        margin-left: 15px;
+    }
+    .buttonnew{
+        margin-left: 15px;
+    }
+
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .listdiv{
+        margin-left: 200px;
+     }
+     .listdiv{
+        margin-top: 50px;
+     }
+     .para1{
+        /* text-align: center; */
+        margin-right: 200px;
+     }
+     .selectoption{
+        margin-top: 100px;
+     }
+
+}

@@ -1,0 +1,465 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white !important;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* .navbar{
+    position: fixed;
+    z-index: 1;width: 100%;
+}
+.my{
+    margin-top: 20px !important;
+} */
+a{
+    text-decoration: none; color: rgb(253, 250, 250)
+} 
+
+.mainnav{
+    background-color: rgb(48, 46, 46) !important; color: white !important; 
+}
+.img1 img{
+    margin-left: 20px;
+
+}
+
+.icon li{
+    margin-left: 25px;
+}
+.data{
+    margin-left: 200px;
+    font-size: small;
+}
+.nav-item a:hover{
+    color: red !important;
+}
+.login{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.login {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.login a:hover{
+    color: red !important;
+}
+.lastword{
+    font-size: x-small;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:600px){
+    .data{
+        position: relative !important;
+        right: 170px;
+        margin-top: 20px;
+    }
+    .login{
+        display: block;
+        position: relative !important;
+        right: 50px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .mainnav{
+        padding:20px;
+    }
+    .data{
+        display: block;
+        position: relative !important;
+        right: 200px;
+        margin-top: 20px;
+    }
+    .login{
+        
+        display: block !important;
+        position: relative !important;
+        right: 50px;
+        margin-top: 20px;
+        font-size: x-large;
+    }
+}
+main{
+    background-color:rgb(37, 36, 36) ;
+}
+/* Carousel End  */
+.news{
+    background-color: rgb(37, 36, 36);
+    text-align: center;
+    padding: 5px;
+}
+/* <!-- Bikes Collection --> */
+
+.bikesimg img{
+    width: 270px;
+    height: 200px;
+}
+.bikesimg img:hover{
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+}
+.hunter1{
+    margin-right: 40px;
+}
+.hunter{
+    display: flex;
+    
+    list-style: none;
+}
+@media screen and (max-width:600px){
+    .carousel{
+        height: 300px;
+    }
+    .cimg img{
+        height: 300px !important;
+        background-size:contain ;
+    }
+    .hunter{
+        display: flex;
+        flex-direction: column;
+    }
+    .bikesimg img{
+        width: 350px;
+        height: 200px;
+        margin-left: 5px;
+    }
+    .bikesimg img:hover{
+        transform: scale(0.8);
+        transition: 0.4 0.4 0.4;
+        opacity: 0.5;
+    }
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .hunter{
+        display: flex;
+        flex-direction: column;
+    }
+    .bikesimg img{
+        width: 650px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    .bikesimg img:hover{
+        transform: scale(0.8);
+        transition: 0.4 0.4 0.4;
+        opacity: 0.5;
+    }
+  
+
+        
+    
+}
+/* Models */
+
+.himalayan{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/rides/marquee-rides/himalayan-adventure-changthang-2023/banner/desktop/himalayan-adventure-changthang.png);
+    background-size: cover; width: 100%;
+    height: 500px;
+}
+.gt650{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/motorcycles/desktop/continental-gt-home-motorcycle.jpg);
+    background-size: cover; width: 100%;
+    height: 500px;
+}
+.Art{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/banner/desktop/art-of-motorcycling-apparel.png);
+    background-size: cover; width: 100%;
+    height: 500px;
+}
+.model{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.model1{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.model2{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.interceptor{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/motorcycles/interceptor/new/banner/desktop/hero-banner-new.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+.model a{
+    display: flex !important;
+    justify-content: center !important;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    /* margin-top: 5px; */
+    text-align: center;
+}
+.model1 a{
+    display: flex !important;
+    justify-content: center !important;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    /* margin-top: 5px; */
+    text-align: center;
+}
+.model2 a{
+    display: flex !important;
+    justify-content: center !important;
+    /* margin-left: 50px; */
+    text-decoration: none;
+    /* margin-top: 5px; */
+    text-align: center;
+}
+.model a:hover{
+    transform: scale(0.8);
+    transition: 0.3 0.3;
+
+}
+.himalayan ul{
+    position: absolute;
+    top:2200px; left: 50px;
+}
+.gt650 ul{
+    position: absolute !important;
+    top: 1100px; left: 50px;
+}
+.interceptor ul{
+    position: absolute !important;
+    top:1650px !important; left: 50px !important;
+}
+.Art ul{
+    position: absolute !important;
+    top:2800px; left: 50px;
+}
+
+.red:hover{
+    color: red;
+}
+.explore li{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center; 
+    
+}
+.explore3 li{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    
+}
+.explore4 li{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.explore1 a{
+    margin-top: 40px;
+}
+
+.explore2 a{
+    margin-top: 40px;
+}
+.explore5 a{
+    margin-top: 40px;
+}
+
+/* .gt650 img{
+    width: 100% !important;
+} */
+
+.explore3{
+    background-color: red;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.explore3 a{
+    margin-top: 40px;
+}
+
+.art{
+    display: flex;
+    justify-content: space-around;
+}
+.art a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+.art a:hover{
+    color: red;
+}
+.stores{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/locate-us/desktop/stores.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+}
+.stores li{
+font-size: x-large;
+display: flex;
+
+}
+.stores1{
+    background-image: url(https://www.royalenfield.com/content/dam/royal-enfield/india/home/locate-us/desktop/service-centres.jpg);
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+}
+.stores1 li{
+    font-size: x-large;
+    display: flex;
+    
+    }
+.service{
+    display: flex;
+    justify-content: space-around;
+}
+.button1{
+    margin-top: 150px;
+}
+.button1 a {
+    border: none;
+    font-size: medium;
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    /* box-shadow: 2px 2px 2px white; */
+}
+.button1 a:hover{
+    /* box-shadow: 4px 4px 4px white; */
+    background-color: black;
+}
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    filter: invert(1);
+    /* font-size: smaller; */
+}
+.footer1{
+    padding-top: 20px;
+    display: flex;
+    justify-content: end; background: #000;
+} .forms a{
+    text-decoration: none; color: #000;
+}
+.footer1 p{
+    margin-right: 100px;
+}
+.svg svg{
+    margin-right: 20px;
+    
+}
+.forms{
+    padding-bottom: 20px;
+    margin-top: 50px; 
+    font-size: small; display: flex; justify-content: space-between;
+}
+.list1{
+    list-style: none;
+    margin-top: 20px;
+    
+    
+}
+.forms1{
+   
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.list1 li{
+    left: 20px;
+}
+.list1 li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+@media screen and (max-width:600px){
+    .himalayan ul{
+        position: absolute;
+        top:2700px;
+    }
+    .gt650 ul{
+        position: absolute;
+        top:1550px;
+    }
+    .interceptor ul{
+        position: absolute !important;
+        top:2100px !important;
+    }
+    .Art ul{
+        position: absolute;
+        top:3250px;
+    }
+    .para{
+        display: flex;
+        justify-content: center;
+        margin-left: 30px;
+    }
+   .forms{
+    display: flex;
+    flex-direction: column;
+   }
+   .forms1 li{
+    display: none ;
+   }
+   .formshover a:hover .forms1 li{
+    display: block;
+   }
+   .svg{
+    display: flex;
+   }
+   .lastword{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   }
+
+}
+@media screen and (min-width:601px) and (max-width:900px){
+    .himalayan ul{
+        position: absolute;
+        top:3300px;
+    }
+    .gt650 ul{
+        position: absolute;
+        top:2200px;
+    }
+    .interceptor ul{
+        position: absolute !important;
+        top:2750px !important;
+    }
+    .Art ul{
+        position: absolute;
+        top:3850px;
+    }
+    .footer1{
+        margin-right: 80px;
+    }
+    .forms{
+        display: flex;
+        flex-direction: column;
+    }
+    .forms1 li{
+        display: none ;
+       }
+    .forms1:hover {
+        text-decoration: underline;
+    }
+    .lastp{
+        margin-left: 20px;
+    }
+}
